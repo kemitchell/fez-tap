@@ -1,7 +1,7 @@
 {
   "name": "fez-tap",
-  "version": "0.1.0",
-  "description": "TAP tests for your fez. Compatible with frontend if you use Tape by substack. -- Great for automated browser testing builds.",
+  "version": "0.1.1",
+  "description": "TAP tests for your fez. Keep your tests ultra portable by using Tape. Run them on the backend with Fez, and on the frontend with anything else.",
   "main": "index.js",
   "scripts": {
     "test": "DEBUG=* node test.js"
