@@ -2,6 +2,7 @@ var Promise = require('bluebird');
 var spawn = require('child_process').spawn
 var node = spawn.bind(spawn, 'node');
 var parser = require('tap-parser');
+
 var parse = function(stream, cb) {
     var _parse = parser(function(results) {
         cb(null, results);
@@ -17,7 +18,7 @@ function exec (filename) {
 }
 
 module.exports = function() {
-    return function tape(inputs) {
+    return function tap(inputs) {
         return Promise.all(inputs.map(function(i) { return i._filename; }).map(exec)).then(function(results) {
             var failure = false;
             results.forEach(function(result, i) {

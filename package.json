@@ -1,21 +1,22 @@
 {
-  "name": "fez-tape",
+  "name": "fez-tap",
   "version": "0.1.0",
-  "description": "TAP tests for your fez. Compatible with frontend because it's Tape by Substack. -- Great for automated browser testing builds.",
+  "description": "TAP tests for your fez. Compatible with frontend if you use Tape by substack. -- Great for automated browser testing builds.",
   "main": "index.js",
   "scripts": {
     "test": "DEBUG=* node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/miketheprogrammer/fez-tape.git"
+    "url": "git://github.com/miketheprogrammer/fez-tap.git"
   },
   "keywords": [
     "fez",
     "tape",
     "tap",
     "test",
-    "browser"
+    "browser",
+    "testing"
   ],
   "testling": {
     "files": "test.js",
@@ -33,9 +34,9 @@
   "author": "Michael Hernandez -- michael.hernandez1988@gmail.com",
   "license": "MIT License",
   "bugs": {
-    "url": "https://github.com/miketheprogrammer/fez-tape/issues"
+    "url": "https://github.com/miketheprogrammer/fez-tap/issues"
   },
-  "homepage": "https://github.com/miketheprogrammer/fez-tape",
+  "homepage": "https://github.com/miketheprogrammer/fez-tap",
   "devDependencies": {
     "debug": "~0.7.4"
   },

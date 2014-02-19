@@ -2,12 +2,12 @@ var fez = require('fez');
 
 
 var fez = require("fez"),
-    tape = require("./index");
+    tap = require("./index");
 
 exports.build = function(spec) {
 
   spec.with("tests/*.js").all(function(files) {
-    spec.rule(files, 'results.json', tape());
+    spec.rule(files, 'results.json', tap());
   });
   
 };
