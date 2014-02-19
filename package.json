@@ -1,0 +1,48 @@
+{
+  "name": "fez-tape",
+  "version": "0.1.0",
+  "description": "TAP tests for your fez. Compatible with frontend because it's Tape by Substack. -- Great for automated browser testing builds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/fez-tape.git"
+  },
+  "keywords": [
+    "fez",
+    "tape",
+    "tap",
+    "test",
+    "browser"
+  ],
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "author": "Michael Hernandez -- michael.hernandez1988@gmail.com",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/fez-tape/issues"
+  },
+  "homepage": "https://github.com/miketheprogrammer/fez-tape",
+  "devDependencies": {
+    "debug": "~0.7.4"
+  },
+  "dependencies": {
+    "tape": "~2.4.2",
+    "tap-parser": "~0.4.1",
+    "bluebird": "~1.0.5",
+    "debug": "~0.7.4"
+  }
+}
