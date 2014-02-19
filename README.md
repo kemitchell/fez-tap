@@ -3,6 +3,10 @@ fez-tape
 
 Tap tests for your fez. Compatible with frontend because it's Tape by Substack. -- Great for automated browser testing builds.
 
+[![browser support](https://ci.testling.com/miketheprogrammer/fez-tape.png)](https://ci.testling.com/miketheprogrammer/fez-tape)
+
+
+
 ```javascript
 npm install fez-tape
 ```
