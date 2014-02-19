@@ -1,11 +1,9 @@
 fez-tap
 ========
 
-TAP tests for your fez. Compatible with frontend if you use Tape by substack. -- Great for automated browser testing builds.
+TAP tests for your fez. Keep your tests ultra portable by using Tape. Run them on the backend with Fez, and on the frontend with anything else.
 
-[![browser support](https://ci.testling.com/miketheprogrammer/fez-tap.png)](https://ci.testling.com/miketheprogrammer/fez-tap)
-
-
+[![build status](https://secure.travis-ci.org/miketheprogrammer/fez-tap.png)](http://travis-ci.org/miketheprogrammer/fez-tap)
 
 ```javascript
 npm install fez-tap
