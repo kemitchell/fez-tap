@@ -45,3 +45,6 @@ exports.default = exports.build;
 fez(module);
 
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/fez-tap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
